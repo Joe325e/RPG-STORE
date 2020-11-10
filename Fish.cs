@@ -7,7 +7,7 @@ namespace Rpg_store
     class Fish
     {
 
-       
+        /*
         private int itemId;
         private string itemType;
         private string itemName;
@@ -34,7 +34,7 @@ namespace Rpg_store
 
 
         
-
+    */
         
     }
 }
