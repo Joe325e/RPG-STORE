@@ -34,7 +34,10 @@ namespace Rpg_store
 
             }
             
-            foreach(int T in )
+            foreach( Item T in records)
+            {
+                Console.WriteLine()
+            }
             
 
             
