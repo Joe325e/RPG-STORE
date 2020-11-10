@@ -1,4 +1,4 @@
-﻿ItemId,ItemType,ItemName,Cost,,,
+﻿ItemId,ItemType,ItemName,ItemCost,,,
 0,Reptiles,Snake,50,,,
 1,Reptiles,Turtle,50,,,
 2,Reptiles,Lizard,50,,,
@@ -19,7 +19,4 @@
 17,Birds,Parrotlet,50,,,
 18,Birds,Cockatiel,50,,,
 19,Birds,Hahn's Macaw,50,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
+

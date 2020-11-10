@@ -36,7 +36,7 @@ namespace Rpg_store
             
             foreach( Item T in records)
             {
-                Console.WriteLine()
+                Console.WriteLine(itemType);
             }
             
 

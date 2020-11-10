@@ -13,7 +13,7 @@ namespace Rpg_store
         private int itemId;
         private string itemType;
         private string itemName;
-        private int Cost;
+        private int itemCost;
 
 
 
@@ -23,7 +23,7 @@ namespace Rpg_store
 
         public string ItemName { get => itemName; set => itemName = value; }
 
-        public int cost { get => cost; set => cost = value; }
+        public int itemCost { get =>  itemCost; set =>  itemCost = value; }
 
 
 
