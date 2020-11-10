@@ -25,18 +25,20 @@ namespace Rpg_store
 
         public static void Test()
         {
-            IEnumerable<Item> records;
-            using (var reader = new StreamReader("path\\to\\file.csv"))
+            Item[] records; 
+            using (var reader = new StreamReader("CSV DATA.csv"))
             using (var csv = new CsvReader(reader, CultureInfo.InvariantCulture))
             {
+                 
                  records = csv.GetRecords<Item>();
-                
 
             }
             
             foreach( Item T in records)
             {
                 Console.WriteLine(itemType);
+                Console.WriteLine(itemName);
+
             }
             
 
