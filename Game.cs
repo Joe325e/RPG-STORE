@@ -30,14 +30,14 @@ namespace Rpg_store
             using (var csv = new CsvReader(reader, CultureInfo.InvariantCulture))
             {
 
-                csv.GetRecords<Item>().ToArray();
+                 records = csv.GetRecords<Item>().ToArray();
 
             }
             
             foreach( Item T in records)
             {
 
-                Console.WriteLine("");
+                
 
             }
             
