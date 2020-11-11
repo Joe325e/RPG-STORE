@@ -23,7 +23,7 @@ namespace Rpg_store
 
         public string ItemName { get => itemName; set => itemName = value; }
 
-        
+        public int ItemCost { get => itemCost; set => itemCost = value; }
 
 
 

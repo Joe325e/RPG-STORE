@@ -29,15 +29,15 @@ namespace Rpg_store
             using (var reader = new StreamReader("CSV DATA.csv"))
             using (var csv = new CsvReader(reader, CultureInfo.InvariantCulture))
             {
-                 
-                 records = csv.GetRecords<Item>();
+
+                csv.GetRecords<Item>().ToArray();
 
             }
             
             foreach( Item T in records)
             {
-                
 
+                Console.WriteLine("");
 
             }
             
